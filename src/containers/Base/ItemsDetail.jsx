@@ -25,10 +25,10 @@ export const ItemsDetail = ({ product }) => {
               )
               .join(" ")}
           </p>
-          <h1 className="lg:text-4xl font-semibold py-4  ">{title}</h1>
+          <h1 className="lg:text-4xl md:text-4xl font-semibold py-4  ">{title}</h1>
           <h2 className=" text-xl font-medium mb-2">Description</h2>
           <p className=" text-slate-400 text-lg">{description}</p>
-          <p className="  my-5 font-semibold text-5xl">$ {price}</p>
+          <p className="  my-5 font-semibold lg:text-5xl md:text-5xl text-xs">$ {price}</p>
 
           <button className="px-20 py-4 bg-lime-400 rounded-full font-bold ease-in-out duration-200 transform hover:scale-105 hover:bg-lime-500">
             Buy It Now

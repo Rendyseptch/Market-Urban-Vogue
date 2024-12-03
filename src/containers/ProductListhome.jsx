@@ -25,6 +25,7 @@ const ProductListing = () => {
     <div className="">
       <div>
         <GrdProduct />
+ 
       </div>
       <ProductComponent />
     </div>
